@@ -6,9 +6,11 @@ This python script generates PDDL problems for N-disk 3-peg [Tower of Hanoi](htt
 
 
 Usage:
+
     python towerHanoiMaker.py N
 
 where `N` is the number of disks
 
 For example, for 
+
     python towerHanoiMaker.py 3
