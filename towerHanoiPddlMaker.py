@@ -8,10 +8,11 @@
 # Outputs: printed string of PDDL for Tower of Hanoi problem with N disks.
 import sys
 
-N = 10 # default Number of disks
+N = 10 # default number of disks
 if len(sys.argv) == 2:
     if int(sys.argv[1]) <= 0:
         sys.stderr.write("N must be 1 or greater, default value used: "+str(N)+"\n")
+        exit(-1)
     else:
         N = int(sys.argv[1])
 else:
